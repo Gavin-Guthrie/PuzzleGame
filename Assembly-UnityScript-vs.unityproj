@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{253D3127-6B6C-D2D4-D7EB-8404A1175E71}</ProjectGuid>
+	<ProjectGuid>{BE279812-7CD3-8BA7-8450-BD5F0F1C2CCB}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Ball_Health.js" />
+     <Compile Include="Assets\Coin_Pickup.js" />
      <Compile Include="Assets\Script\Ball_Control.js" />
      <Compile Include="Assets\Script\CameraControl.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
